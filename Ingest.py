@@ -135,8 +135,8 @@ print(f"  Each embedding has {len(embeddings[0])} dimensions (numbers)")
 print("\n[5/5] Storing in ChromaDB...")
 
 # PersistentClient saves the database to disk at CHROMA_PERSIST_DIR
-# Next time you run ingest.py it will add to the existing database
-# Next time you run the agent it will load the existing database
+# Next time when we run ingest.py it will add to the existing database
+# Next time we run the agent it will load the existing database
 chroma_client = chromadb.PersistentClient(path=CHROMA_PERSIST_DIR)
 
 # A "collection" in ChromaDB is like a table in a regular database
