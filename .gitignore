@@ -1,0 +1,30 @@
+﻿
+docs/regulatory/
+
+# Virtual environment
+venv/
+pharma_venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Models
+models/
+*.pkl
+
+# ChromaDB
+chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db
