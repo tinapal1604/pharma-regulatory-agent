@@ -1,6 +1,9 @@
 ﻿
 docs/regulatory/
 
+app.py
+fix_env.py
+verify.py
 # Virtual environment
 venv/
 pharma_venv/
